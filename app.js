@@ -4,8 +4,8 @@ const facebook = require('botbuilder-facebookextension');
 
 // Create chat connector for communicating with the Bot Framework Service
 const connector = new builder.ChatConnector({
-    appId: process.env.MICROSOFT_APP_ID,
-    appPassword: process.env.MICROSOFT_APP_PASSWORD
+    appId: '01c2198f-fa04-4b18-a74f-351edc47d7c4',//process.env.MICROSOFT_APP_ID,
+    appPassword:'vNROqByxxx6AU5nuHVaEyVw' //process.env.MICROSOFT_APP_PASSWORD
 });
 // Create Bot Instance
 const bot = new builder.UniversalBot(connector, session => {
